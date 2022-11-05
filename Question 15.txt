@@ -1,0 +1,15 @@
+ List studentInfo=[{'name': 'Muneeb', 'roll no':67, 'subjects':[92,87,84,89,78]},
+                  {'name':'Wajahat','roll no':68,'subjects':[91,93,83,85,79]}];
+
+   for (var i = 0 ;i<studentInfo.length;i++){
+  
+  print("Student name is ${studentInfo[i]['name']}");
+      print("Student name is ${studentInfo[i]['name']}");
+   print("Maths mark is ${studentInfo[i]['subjects'][0]}");
+       print("Chemistry mark is ${studentInfo[i]['subjects'][1]}");
+       print("Bio mark is ${studentInfo[i]['subjects'][2]}");
+       print("Eng mark is ${studentInfo[i]['subjects'][3]}");
+       print("Urdu mark is ${studentInfo[i]['subjects'][4]}");
+   }
+   }
+     

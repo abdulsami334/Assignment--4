@@ -1,0 +1,3 @@
+ List nameList = ['Bilal', 'Bilal', 'Bilal', 'Owais', 'Owais', 'Owais'];
+var norepeated_nameList = nameList.toSet().toList();
+  print(norepeated_nameList); 

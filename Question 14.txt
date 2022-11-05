@@ -1,0 +1,9 @@
+     
+int number=18;
+     for(var i=0;i<=18;i++){
+       for(var j=0;j<=18;j++){
+         if(i+j==18){
+           print("$i+$j");
+         }
+       }
+     } 

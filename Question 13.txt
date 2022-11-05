@@ -1,0 +1,5 @@
+ List<int> unsortedlist = [65,34,43,44,28,70,47,52,8,11];  
+var small=unsortedlist.fold(unsortedlist[0],min);
+     var large = unsortedlist.fold(unsortedlist[0],max);
+     print("Smallest value = $small");
+     print("Largest value = $large ");

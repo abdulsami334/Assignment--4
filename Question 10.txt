@@ -1,0 +1,4 @@
+    
+var num2=("natsikaP nawaJ");
+     var reverse=(num2.split("").reversed.join());
+     print (reverse);
